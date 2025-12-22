@@ -165,7 +165,7 @@ set_thumbnail_path() {
 
 modify_startup_config() {
   local selected_file="$1"
-  local startup_config="$HOME/.config/hypr/custom/scripts/execs.conf"
+  local startup_config="$HOME/.config/hypr/hyprland/execs.conf"
 
   # Check if it's a live wallpaper (video)
   if [[ "$selected_file" =~ \.(mp4|mkv|mov|webm)$ ]]; then
